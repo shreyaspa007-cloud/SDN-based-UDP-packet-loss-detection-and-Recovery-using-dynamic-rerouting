@@ -1,0 +1,4 @@
+# Installed inside ./venv by setup.sh  (Mininet + Open vSwitch come from apt)
+ryu==4.34
+eventlet==0.30.2     # newer eventlet breaks Ryu ("cannot import name ALREADY_HANDLED")
+matplotlib           # optional, only for plots (setup.sh also installs python3-matplotlib via apt)
